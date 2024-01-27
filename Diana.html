@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studi.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="all">
+    <div class="bord">
+        <table cellspacing="0">
+            <tr>
+                <td>Chitante</td>
+                <td>Avize</td>
+                <td >NIR</td>
+                <td>Bon de cons.</td>
+                <td>Bon de transfer</td>
+                <td class="main">P.V de mod.pret</td>
+                <td class="inl">
+                    <button > < </button> 
+                    <button > > </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="contentall">
+        <div class="unit">
+            <table>
+                <tr>
+                    <td><b> Formular implicit </b> <hr> </td>
+                    <td><b>Serie / nr.de inreg implicit </b> <hr> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="pvmp" id="1">
+                            <option value="1">01.pvmp_1</option>
+                            <option value="2">option2</option>
+                            <option value="3">option3</option>
+                            <option value="4">option4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="nrpv" id="1">
+                            <option value="1">[PVMP_NR]</option>
+                            <option value="2">option2</option>
+                            <option value="3">option3</option>
+                            <option value="4">option4</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="info2">
+            <h3><b>Gestionar</b></h3>
+            <hr>
+            <table>
+                <tr>
+                    <td>
+                        <select name="gest" id="1">
+                            <option value="1">Gestionar(gestionar)</option>
+                            <option value="2">option2</option>
+                            <option value="3">option3</option>
+                            <option value="4">option4</option>
+                        </select>
+                    </td>
+                    <td><button class="greenplus"> <img src="43-433845_ambox-emblem-plus-green-plus-symbol.png" alt="" > Adauga</button></td>
+                    <td><button class="confirm"><img src="seen-2524761-2140514.webp" alt="">Modifica</button></td>
+                </tr>
+            </table>
+            <table class="two">
+                <tr>
+                    <td>Cod numeric personal :</td>
+                    <td><input type="text" placeholder="-"></td>
+                </tr>
+                <tr>
+                    <td>Seia si nr. BI/CI :</td>
+                    <td><input type="text" placeholder="-"></td>
+                </tr>
+            </table>
+        </div>
+        <br><br><br>
+        <div class="info3">
+            <input type="checkbox" id="tva" name="T.V.A" checked>
+            <label for="tva">T.V.A</label>
+            <label for="tva" class="left">
+                <input type="number" id="quantity" name="quantity" min="0" max="50" placeholder="24">
+            </label>
+        </div>
+        <div class="info4">
+            <h3><b>Conturi bancare</b></h3>
+            <hr>
+            <table>
+                <tr>
+                    <td>IEAN :</td>
+                    <td> <input type="text"> </td>
+                    <td>
+                        <select name="1" id="2">
+                            <option value="1"></option>
+                        </select>
+                    </td>
+                    <td><button class="greenplus"> <img src="43-433845_ambox-emblem-plus-green-plus-symbol.png" alt="" > Adauga</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="info5">
+            <table cellspacing="0">
+                <tr >
+                    <td class="mo"> </td>
+                    <td class="no"> <b> Banca</b> <b>Iban </b> </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="laa">
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="info6">
+            <table>
+                <tr>
+                    <td class="pad">Selectati contul care doriti sa fie cel implicit</td>
+                    <td><button class="greenplus"> <img src="43-433845_ambox-emblem-plus-green-plus-symbol.png" alt="" > Inregistrare banca</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="info7">
+            <table>
+                <tr>
+                    <td class="cinc"> <h3><b>Capital social</b></h3> <hr ></td>
+                    <td class="zi"> <h3><b>Alte informatii</b></h3> <hr></td>
+                </tr>
+                <tr>
+                    <td> <input type="text" placeholder="25000LEI" class="vom"> </td>
+                     <td>
+                        <input type="checkbox" name="client" id="1" >
+                        <label for="client">Client</label>
+                    
+                        <input type="checkbox" name="furnizor" id="1" >
+                        <label for="furnizor">Furnizor</label>
+                    
+                        <input type="checkbox" name="tvaa" id="1" checked>
+                        <label for="tvaa">T.V.A. la incasare</label>
+                  
+                    <button>Verifica</button>
+                   
+                        <select name="1" id="1">
+                            <option value="1">Romania</option>
+                            <option value="2">option2</option>
+                            <option value="3">option3</option>
+                            <option value="4">option4</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="save">
+        <button><img src="Paomedia-Small-N-Flat-Floppy.ico" alt="">Salveaza</button>
+        <button><img src="images.png" alt="">Renunta</button>
+    </div>
+</div>
+</body>
+</html>

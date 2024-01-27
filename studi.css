@@ -1,0 +1,151 @@
+*{
+    font-size: 12px;
+}
+
+h3{
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+hr{
+    color: aqua;
+    margin-top: -10px;
+    width: 97%;
+    
+}
+
+img{
+    height: 10px;
+    padding-right: 5px;
+}
+
+.contentall{
+    border: 1px solid aqua;
+    border-top: 0px;
+    padding: 15px 10px 0px 10px ;
+    
+}
+
+.all{
+    border: 1px solid white;
+    padding: 15px;
+    width: 550px;
+    
+}
+.bord td:hover{
+    background-color: grey;
+}
+
+table .main:hover{
+    background-color: aliceblue;
+}
+
+table .inl:hover{
+    background-color: aliceblue;
+}
+
+.bord td{
+    border: 1px solid black;
+    border-bottom: 1px solid aqua;
+    border-top-left-radius: 6px;
+    padding: 0px 10px;
+
+}
+
+.bord table{
+    width: 100%;
+}
+
+table .inl{
+    border: 0px solid white;
+    border-bottom: 1px solid aqua;
+    text-align: right;
+}
+
+table .main {
+    border-bottom: 0px;
+    border-color: aqua;
+}
+
+.unit table hr{
+   margin-top: 0px;
+}
+
+.unit table td{
+    width: 60%;
+}
+
+.unit table select{
+    width: 100%;
+}
+
+.info2 table select{
+    width: 360px;
+}
+
+.two input{
+    margin-left: 20px;
+    width: 375px;
+}
+
+.left input{
+    text-align: right;
+    margin-left: 15px;
+}
+
+.info4 input , select{
+    width: 180px;
+}
+
+.info4 td{
+    width: 20%;
+}
+
+.info5 table td{
+    border: 1px solid black;
+    border-style: inset;
+}
+
+.info6{
+    padding-top: 10px;
+}
+table .mo {
+    width: 20px;
+}
+
+table .no {
+    width: 493px;
+}
+
+table .no b{
+    padding-right: 170px;
+}
+
+table .laa {
+    height: 15px;
+}
+
+table .pad{
+    padding-right: 173px
+}
+
+table .zi{
+    width: 400px;
+}
+
+.info7 table{
+    width: 530px;
+}
+
+.info7 select{
+    width: 100px;
+}
+
+table .vom{
+    width: 110px;
+}
+
+.save{
+    text-align: right;
+    padding-top: 10px;
+}
